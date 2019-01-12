@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .top{
+            width: 100%;
+            background-color: black;
+            position: fixed;
+            height: 70px;
+        }
+        .top-big{
+            width: 1200px;
+            height: 70px;
+            margin: 0 auto;
+            background-color:black;
+        }
+        .top-big a{
+            color: white;
+            text-decoration: none;
+        }
+.clear{
+   clear: both;
+}
+.top-big div{
+    float: left;
+}
+ .wenzi li{
+     display: inline-block;
+     font-size: 23px;
+   margin-left: 20px;
+     margin-top: 30px;
+
+
+ }
+ a:hover{
+     color: #00A000;
+ }
+        .shurukuang{
+            width: 600px;
+            height: 70px;
+            background-color: black;
+            margin-left: 100px;
+        }
+        /*.shurukuang input{*/
+            /*width: 200px;*/
+            /*height: 40px;*/
+            /*margin-top: 15px;*/
+        /*}*/
+        #input1{
+            width: 200px;
+            height: 40px;
+            margin-top: 15px;
+        }
+        #input2{
+            width: 100px;
+            height: 40px;
+        }
+        .shurukuang p{
+            display: inline-block;
+            margin-left: 30px;
+            font-style: "微软雅黑";
+        }
+        .two{
+            width: 100%;
+            height: 600px;
+            /*background-color: #0000FF;*/
+            background-image: url("bannerbg.png");
+            background-repeat: no-repeat;
+            margin: 0 auto;
+
+        }
+        .two div{
+            float: left;
+        }
+        .two-1 img{
+            margin-top:130px;
+            margin-left: 100px;
+        }
+        .two-2{
+            width:300px;
+            height: 400px;
+            background-color: white;
+            margin-left: 170px;
+            margin-top: 130px;
+
+        }
+        .two h2{
+           font-family:"微软雅黑" ;
+            padding-left: 10px;
+            line-height: 70px;
+        }
+        .two-2 img{
+            margin-left: 20px;
+        }
+        .two-2 a{
+            padding-left: 10px;
+            text-decoration: none;
+            color: black;
+        }
+        .two-2 a:hover{
+            color: #00A000;
+        }
+        .two-2 p{
+            padding-left: 10px;
+            line-height: 50px;
+
+        }
+        .tehuikan{
+            border-bottom: 1px dashed grey;
+        }
+        .three{
+            width: 1200px;
+            /*height: 1000px;*/
+            margin:0 auto;
+background-color: white;
+        }
+        .three-1{
+            width: 880px;
+            height: 350px;
+            background-color:white;
+            float: left;
+        }
+        .three-2{
+            width: 318px;
+            height: 300px;
+            background-color: white;
+            float: left;
+            border: 1px solid grey;
+        }
+        .three-1 img{
+            width: 180px;
+
+        }
+        .three-1 {
+            font-size: 14px;
+        }
+        .body{
+float: left;
+margin-left: 18px;
+            padding-top: 5px;
+            padding-left: 5px;
+            padding-right: 5px;
+border: 1px solid grey;
+        }
+        .three-2 p{
+            display: inline-block;
+            font-size: 20px;
+
+        }
+        .three-2 a{
+            text-decoration: none;
+            color: black;
+
+        }
+        .three-2 a:hover{
+            color: #00A000;
+            text-align: center;
+        }
+
+        .three-2 div{
+            float: left;
+            width:120px;
+            height: 50px;
+            /*text-align: center;*/
+            padding-top: 30px;
+            padding-left: 20px;
+        }
+        .left{
+            background-color: white;
+            border-top: 1px solid grey;
+            border-right: 1px solid grey;
+        }
+        .right{
+            background-color: white;
+
+            border-bottom: 1px solid grey;
+        }
+        .three-2 a{
+            padding-top: 15px;
+            padding-left: 10px;
+            /*border-bottom: 1px dashed grey;*/
+            padding-bottom: 10px;
+        }
+        #xuxian{
+            border-bottom: 1px dashed grey;
+            margin-top: 10px;
+            line-height: 50px;
+        }
+.three ul{
+    font-size: 15px;
+    font-family: "微软雅黑";
+margin-left: 100px;
+    margin-top:30px;
+}
+        .three li{
+            color: black;
+            /*text-decoration: none;*/
+            list-style-type: none;
+            display: inline-block;
+            padding-left: 20px;
+            padding-right: 20px;
+
+        }
+        .three a{
+            text-decoration: none;
+            color: black;
+
+        }
+        #hehe{
+            border-top: 1px solid grey;
+            border-left: 1px solid grey;
+            border-right: 1px solid grey;
+        }
+        .three-3 div{
+            float: left;
+        }
+        .three-3-left img{
+            width: 180px;
+        }
+        .three-3-left {
+            width: 880px;
+            height: 800px;
+            font-size: 14px;
+            margin-top: 15px;
+
+        }
+        .three{
+            width: 1200px;
+        }
+        .body1{
+            float: left;
+            margin-left: 18px;
+            padding-top: 5px;
+            padding-left: 5px;
+            padding-right: 5px;
+            border: 1px solid grey;
+line-height: 25px;
+        }
+        .zi{
+            width: 880px;
+            border-bottom: 1px solid darkgray;
+        }
+        .body2{
+            float: left;
+            margin-left: 18px;
+            padding-top: 5px;
+            padding-left: 5px;
+            padding-right: 5px;
+            border: 1px solid grey;
+margin-top: 50px;
+            line-height: 25px;
+        }
+.three-3-left span{
+    font-size: 30px;
+    color: aqua;
+}
+        .three-3-right{
+            width: 320px;
+            height: 700px;
+            background-color: white;
+            float: left;
+        }
+.right-1 p{
+    padding-left: 10px;
+    font-size: 23px;
+    color: white;
+    background-color: aqua;
+}
+        .right-1 span{
+            font-size: 18px;
+        }
+        .right-2{
+            font-size: 14px;
+color: grey;
+            margin-left: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .right-2 span{
+            color: aqua;
+        }
+        .right-3{
+            width: 320px;
+            height: 130px;
+border-bottom: 1px solid grey;
+            border-top:1px solid grey ;
+            padding-top: 10px;
+        }
+.right-3 p{
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 10px;
+}
+        .right-3 span{
+            color: cyan;
+        }
+        .right-4{
+            width: 320px;
+            height: 130px;
+            border-bottom: 1px solid grey;
+            padding-top: 10px;
+        }
+        .right-4 p{
+            font-size: 14px;
+            line-height: 25px;
+            padding-left: 10px;
+        }
+        .right-4 span{
+            color: cyan;
+        }
+        #shenzhen{
+            font-size: 14px;
+        }
+        .right-4 div{
+            float: left;
+        }
+        .right-5{
+            width: 320px;
+            height: 130px;
+            border-bottom: 1px solid grey;
+            margin-top: 30px;
+        }
+        .right-5 p{
+            font-size: 14px;
+            line-height: 25px;
+            padding-left: 10px;
+        }
+        .right-5 span{
+            color: cyan;
+        }
+        .right-5 div{
+            float: left;
+        }
+        .right-6{
+            width: 320px;
+            height: 130px;
+            border-bottom: 1px solid grey;
+            margin-top: 30px;
+        }
+        .right-6 p{
+            font-size: 14px;
+            line-height: 25px;
+            padding-left: 10px;
+        }
+        .right-6 span{
+            color: cyan;
+        }
+        .right-6 div{
+            float: left;
+        }
+        .right-7{
+            margin-top: 30px;
+        }
+.right-7 a{
+    color: aqua;
+    text-align: center;
+/*margin-top: 50px;*/
+    margin-left: 40px;
+}
+        .right-7 a:hover{
+            color: grey;
+        }
+
+        .four-1{
+            width: 200px;
+            height: 50px;
+            background-color: white;
+            margin-left: 50px;
+            float: left;
+        }
+        .four-2{
+            width: 500px;
+            height: 50px;
+            background-color: white;
+            float: right;
+        }
+        .baoli{
+            width: 1200px;
+            /*height: 1000px;*/
+            background-color: white;
+
+        }
+        .baoli1{
+            width:400px ;
+            height: 450px;
+border: 1px solid grey;
+        }
+        .baoli2{
+            width:400px ;
+            height: 400px;
+            border: 1px solid grey;
+            margin-left: 10px;
+        }
+        .baoli1 h3{
+            font-size: 10px;
+            margin-left: 10px;
+
+        }
+        .baoli3{
+            width: 320px;
+            background-color:white;
+            border: 1px solid grey;
+            padding-bottom: 10px;
+            margin-left: 20px;
+
+        }
+
+        .baolizimu{
+            font-size: 16px;
+            color: black;
+            padding-top: 10px;
+            /*text-align: center;*/
+            padding-left: 10px;
+
+        }
+        .baolizimu a:hover{
+            color: aqua;
+        }
+        .baoli img{
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-right: 10px;
+        }
+        .baoli2 a:hover{
+            color: aqua;
+        }
+        .baoli2{
+            line-height:30px;
+            padding-right: 5px;
+        }
+        .baoli2 p{
+            padding-left: 10px;
+        }
+        .baoli2 h2{
+            padding-left: 20px;
+        }
+        .baoli1 h2{
+            padding-left: 20px;
+        }
+.baoli3 p{
+    font-size: 25px;
+    /*padding-bottom: 20px;*/
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+#shiziziti{
+    font-size: 14px;
+    color: black;
+}
+
+.baoli3-1{
+    float: left;
+
+}
+        .xian{
+            border-bottom: 1px solid grey;
+            border-top: 1px solid grey;
+        }
+        .baoli3-1 span{
+            color: aqua;
+        }
+        #aa{
+            font-size: 14px;
+        }
+        .demo{
+            width: 320px;
+            /*height: 20px;*/
+            border-bottom: 1px dashed grey;
+            padding-bottom: 10px;
+        }
+        .four-2 a{
+            padding-left: 400px;
+            color: aqua;
+            font-size: 18px;
+        }
+        .buttom{
+            width: 100%;
+            height: 200px;
+            background-color: black;
+            margin-top: 10px;
+        }
+        .demo1{
+            width: 100px;
+            height: 100px;
+            float: left;
+
+        }
+        .demo02{
+            width:200px ;
+        }
+        .demo02 p{
+            color: grey;
+            font-size: 20px;
+        }
+        .demo04 p{
+            color: grey;
+            font-size: 20px;
+        }
+        .demo02 span{
+            font-size: 14px;
+
+        }
+        .demo04 span{
+            font-size: 14px;
+
+        }
+        .demo06{
+            color: grey;
+            font-size: 20px;
+        }
+        .demo06 span{
+            font-size: 14px;
+
+        }
+        .buttom div{
+            margin: 0 auto;
+            text-align: center;
+            padding-left: 40px;
+            padding-top: 40px;
+        }
+        .demo07{
+            font-size: 14px;
+            color: grey;
+
+        }
+        .demo07 >p{
+
+            padding-left: 250px;
+        }
+        #xuxian2{
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="top">
+    <div class="top-big">
+        <div class="weipiaoer">
+        <img src="logoMsg.png"/>
+        </div>
+        <div class="wenzi">
+    <ul class="ziti">
+        <li><a href="">全国</a></li>
+        <li><a href="">演出</a></li>
+        <li><a href="">电影</a></li>
+        <li><a href="">微票儿</a></li>
+    </ul>
+        </div>
+  <div class="shurukuang">
+      <input type="text"placeholder="请输入要搜索的内容" id="input1"/><input type="submit"value="搜索"id="input2"/>
+      <p><a href="">登录</a></p>
+      <p><a href="">注册</a></p>
+  </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="two">
+    <div class="two-1">
+        <img src="1.jpg" width="700px"height="400px"/>
+    </div>
+    <div class="two-2">
+       <div class="tehuikan">
+        <h2>特惠看</h2>
+        <img src="img1.jpg" />
+        <p><a href="">[苏州]2016迷笛电子音乐节（预售）</a></p>
+        <p><a href="">穿着花裤子喝着小酒通宵达旦</a></p>
+    </div>
+        <div class="liuruoying">
+            <p><a href="">2016刘若英巡回演唱会</a></p>
+            <p><a href="">[上海]百老汇经典音乐剧-狮子王</a></p>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="three">
+    <div class="three-1">
+        <div class="body">
+
+        <img src="shizi.jpg"/>
+        <br/>
+        <span>[上海]百老汇经典音乐剧<br/>《狮子王》</span>
+
+    </div>
+
+    <div class="body">
+        <img src="chen.jpg"/>
+        <br/>
+        <span>[北京]陈奕迅 <br/>ANOTHER EASON'S LIFE<br/>演唱会北京站</span>
+    </div>
+    <div class="body">
+        <img src="bird.jpg"/>
+        <br/>
+        <span>[深圳]逃跑计划2016巡回<br/>演唱会深圳站</span>
+    </div>
+    <div class="body">
+        <img src="8.jpg"/>
+        <br/>
+        <span>[ 北京]BJCC北京漫控潮流<br/>博览会</span>
+    </div>
+            <div class="clear"></div>
+</div>
+
+
+    <div class="three-2">
+<div class="left"><p><a href="">首页</a></p></div>
+<div class="right"><p><a href="">技能课</a></p></div>
+        <img src="img2.jpg" />
+        <h4 id="xuxian"><a href="">[哈尔滨]梁静茹.你的名字是爱情演唱会</a></h4>
+        <h4 id="xuxian2"><a href="">[太原]蔡依林2016play世界巡回演唱会</a></h4>
+    </div>
+
+    <div class="clear"></div>
+    <div class="tupian">
+        <img src="ad1.jpg" width="1200px"/>
+    </div>
+    <div class="three-3">
+        <div class="zi">
+    <ul class="wuxu">
+        <li id="hehe"><a href="">演唱会</a></li>
+        <li><a href="">体育赛事</a></li>
+        <li><a href="">舞台剧</a></li>
+        <li><a href="">儿童亲子</a></li>
+        <li><a href="">音乐会</a></li>
+        <li><a href="">展览活动</a></li>
+    </ul>
+            </div>
+        <div class="three-3">
+        <div class="three-3-left">
+            <div class="body1">
+                <img src="9.jpg"/>
+                <br/>
+                <p>[苏州]2016迷笛电子音乐节<br/><span>180</span>元起</p>
+            </div>
+
+                <div class="body1">
+                    <img src="10.jpg"/>
+                    <br/>
+                    <p>[深圳]逃跑计划2016巡回<br/>演唱会深圳站<br/><span>180</span>元起</p>
+                </div>
+                <div class="body1">
+                    <img src="11.jpg"/>
+                    <br/>
+                    <p>[北京]陈奕迅 ANOTHER <br/>EASON'S LIFE演唱会北京站<br/><span>380</span>元起</p>
+                </div>
+                <div class="body1">
+                    <img src="12.jpg"/>
+                    <br/>
+                    <p>[青岛]周杰伦2016世界巡回<br/>演唱会青岛站(即将开售)<br/><span>380</span>元起</p>
+                </div>
+                <div class="clear"></div>
+
+        <div class="body2">
+
+            <img src="13.jpg"/>
+            <br/>
+            <p>[太原]周杰伦2016世界<br/>巡回演唱会太原站(预售) <br/><span>280</span>元起</p>
+
+        </div>
+
+        <div class="body2">
+            <img src="14.jpg"/>
+            <br/>
+            <p>[太原]2016 李荣浩「有 理想」<br/>世界巡回演唱会-太原站<br/><span>180</span>元起</p>
+        </div>
+        <div class="body2">
+            <img src="15.jpg"/>
+            <br/>
+            <p>[深圳]徐佳莹“日全蚀”深圳<br/>演唱会<br/><span>380</span>元起</p>
+        </div>
+        <div class="body2">
+            <img src="16.jpg"/>
+            <br/>
+            <p>[太原]2016刘若英"Renext </br>我敢"世界巡回演唱会太原站)<br/><span>380</span>元起</p>
+        </div>
+        <div class="clear"></div>
+</div>
+
+<div class="three-3-right">
+    <div class="right-1"><p>历历在目-<span>尽享每天不一样的精彩</span></p></div>
+   <div class="right-2"><p>今天共<span>9</span>场演出</p></div>
+    <div class="right-3">
+        <div><img src="img4.jpg"/></div>
+        <div><p>[天津]天津中华曲苑相声专场
+            <br/>
+            2016年1月1日~12月31日
+            <br/>
+            天津中华曲苑
+            <br/>
+            <span>50</span>元起</p>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="right-4">
+      <div> <img src="img5.jpg"/></div>
+        <div><p id="shenzhen">[深圳]刘老根大舞台深圳站<br/>
+            2016年3月18日~5月31日 深圳站
+            <br/>
+            刘老根大舞台
+            <span>120</span>元起</p>
+        </div>
+        <div class="clear"></div>
+</div>
+    <div class="right-5">
+        <div><img src="img6.gif"/></div>
+     <div><p>[长沙]大兵笑工场相声晚会
+         <br/>
+         2016年4月18日~6月27日
+         <br/>湘江剧院
+         <br/>
+         <span>40</span>元起</p>
+     </div>
+        <div class="clear"></div>
+    </div>
+    <div class="right-6">
+        <div><img src="img4.jpg"/></div>
+        <div><p id="tianjin">
+            [天津]天津中华曲苑相声专场
+            <br/>
+            2016年1月1日~12月31日
+            <br/>
+            天津中华曲苑
+            <br/>
+            <span>50</span>元起</p>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="right-7">
+        <p ><a href="">查看今日全部演出</a></p>
+    </div>
+</div>
+    <div class="clear"></div>
+<div class="four">
+    <div class="four-1"><h2>场馆推荐</h2></div>
+    <div class="four-2"><h6><a href="">全部场馆</a></h6></div>
+<div class="clear"></div>
+</div>
+
+</div>
+<div class="baoli">
+    <div class="baoli1">
+        <div>
+        <img src="img7.jpg"width="370px" />
+            <br/>
+        <h2>近期演出:</h2>
+    </div>
+        <div class="baolizimu">
+
+         <p><a href="">[北京]恒源祥戏剧出品大型原创音乐剧《犹太人在上海》</a></p>
+          <p><a href="">[北京]沪语话剧《永远的尹雪艳》</a></p>
+            <p><a href="">[北京]恒源祥戏剧出品原创话剧《大商海》</a></p>
+            <p><a href="">[北京]百老汇经典音乐剧《音乐之声》中文版</a></p>
+
+            </div>
+
+
+    </div>
+    <div class="baoli2">
+        <div>
+        <img src="img8.jpg"width="370px" />
+            <br/>
+            <h2>近期演出：</h2>
+        </div>
+        <div>
+            <p><a href="">[北京]2016如果田馥甄巡回演唱会plus北京站售罄</a></p>
+        </div>
+    </div>
+    <div class="baoli3">
+<p>热销榜单</p>
+        <div class="xian">
+        <div class="baoli3-1"><img src="shizi.jpg"width="100px"height="150px"/></div>
+        <div class="baoli3-1">
+            <p id="shiziziti">[上海]百老汇经典
+            <br/>音乐剧《狮子王》
+            <br/>
+            2016年1月1日~12月31日
+            <br/>
+            [华特迪士尼大剧院]
+            <br/>
+            <span>190</span>元起</p></div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="demo"><p id="aa"><a href="">[北京]陈奕迅ANOTHER EASON'S LIFE</a></p></div>
+    <div class="demo"><p id="aa"><a href=""> [深圳]逃跑计划2016巡回演唱会深圳站</a></p></div>
+     <div class="demo"><p id="aa"><a href="">[北京]BJCC北京漫控潮流博览会</a></p></div>
+      <div class="demo"><p id="aa"><a href="">[贵阳]陈奕迅ANOTHER EASON'LIFE演唱会贵阳站</a></p></div>
+      <div class="demo"><p id="aa"><a href="">[太原]2016岳云鹏相声专场太原站</a></p></div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+
+    <div class="buttom">
+        <div class="demo01"><img src="logoMsg.png"/></div>
+        <div class="demo02"><p>微信电影官网
+            <br/></vr><span>在线占好座，覆盖影院全国第一</span></p></div>
+        <div class="demo03"><img src="phoneIcon.png"/></div>
+        <div class="demo04"><p>微信电影票官网
+            <br/>
+            <span>在线占好座，覆盖影院全国第一</span></p></div>
+        <div class="demo05"><img src="f_wx.png"/><img src="f_wpr.png" alt=""/></div>
+        <div class="demo06"><p>微信电影票官网<br/>
+            <span>在线占好座，覆盖影院全国第一</span></p></div>
+<div class="clear"></div>
+        <div class="demo07"><p>@2015北京微影时代科技有限公司版权所有　　京ICP备14034406号-2</p></div>
+    </div>
+</body>
+</html>
